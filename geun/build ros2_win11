@@ -85,7 +85,17 @@ alias testsubimg='ros2 run image_tools showimage'
 # install gazebo
 sudo apt install gazebo9
 
-#download vscode from httpe://https://code.visualstudio.com/download
+#download vscode
+
+code
+
+=========================================================================
+=>  Installing VS Code Server for x64 (######)
+    Downloading: n%
+    Unpacking: n%
+    Unapcked 1842 files and folders to /home/###/.vscode-server/bin/#####
+==========================================================================
+
 
 #~/robot_ws/.vscode/c_cpp_properties.json
 {
