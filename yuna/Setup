@@ -76,3 +76,5 @@ docker ps -a
 2) 종료된 container를 다시 작업하고 싶을 때 사용한다. 
 docker restart {CONTAINER ID 또는 CONTAINER NAME}
 docker attach {CONTAINER ID 또는 CONTAINER NAME}
+
+
