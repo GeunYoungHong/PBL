@@ -1,7 +1,7 @@
 PBL by Geun Young Hong
 2021 2학기 
 
-#참고
+#참고 사이트
 
 https://www.youtube.com/watch?v=EuSXkNL1Wi4
 
