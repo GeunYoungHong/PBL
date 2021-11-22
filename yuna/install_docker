@@ -81,3 +81,4 @@ docker attach {CONTAINER ID 또는 CONTAINER NAME}
 3) container를 삭제하고 싶을 때 사용한다.
 docker rm {CONTAINER ID 또는 CONTAINER NAME}
 docker rmi {IMAGES ID} -> 이미지 
+
