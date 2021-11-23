@@ -9,5 +9,5 @@ https://github.com/SMARTlab-Purdue/ros-tutorial-voice
 
 https://github.com/gorinars/ros_voice_control
 
-# Gazebo_models
-https://gitgub.com/osrf/gazebo_models
+# Rvis and Gazebo model for Indy7 [ROS1]
+http://docs.neuromeka.com/2.3.0/kr/ROS/section1/
