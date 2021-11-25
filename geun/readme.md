@@ -16,3 +16,6 @@ http://docs.neuromeka.com/2.3.0/kr/ROS/section1/
 #tutorial for Gazebo
 
 https://gazebosim.org/tutorials
+
+#Ubuntu or Debian
+sudo apt install libgazebo8-dev
