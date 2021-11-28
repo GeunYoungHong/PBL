@@ -13,7 +13,7 @@ https://github.com/gorinars/ros_voice_control
 
 http://docs.neuromeka.com/2.3.0/kr/ROS/section1/
 
-#tutorial for Gazebo
+#ROS Gazeobo tutorial
 
 https://gazebosim.org/tutorials
 
