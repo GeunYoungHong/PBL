@@ -17,8 +17,7 @@ http://docs.neuromeka.com/2.3.0/kr/ROS/section1/
 
 https://gazebosim.org/tutorials
 
-#Ubuntu or Debian
-$sudo apt install libgazebo8-dev
 
 #ROS2 GAZEBO tutorial
+
 http://gazebosim.org/tutorials?tut=ros2_installing&cat=connect_ros
