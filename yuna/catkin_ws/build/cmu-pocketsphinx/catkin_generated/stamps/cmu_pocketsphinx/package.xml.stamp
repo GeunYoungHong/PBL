@@ -1,0 +1,21 @@
+<?xml version="2.0"?>
+<package format="2">
+  <name>cmu_pocketsphinx</name>
+  <version>1.0.2</version>
+  <description>
+    ROS package for pocketsphinx speech recognizer
+  </description>
+  <author>Pankaj Baranwal, Michael Ferguson</author>
+  <maintainer email="pankaj11520@ducic.ac.in">Pankaj Baranwal</maintainer>
+  <license>BSD</license>
+  <url type="website">http://github.com/Pankaj-Baranwal/cmu-pocketsphinx</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <!-- only needed for demos -->
+  <exec_depend>geometry_msgs</exec_depend>
+
+</package>

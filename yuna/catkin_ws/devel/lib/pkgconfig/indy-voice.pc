@@ -1,0 +1,8 @@
+prefix=/home/choi/catkin_ws/devel
+
+Name: indy-voice
+Description: Description of indy-voice
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

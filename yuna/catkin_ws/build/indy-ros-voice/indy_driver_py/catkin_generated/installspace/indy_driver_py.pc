@@ -1,0 +1,8 @@
+prefix=/home/choi/catkin_ws/install
+
+Name: indy_driver_py
+Description: Description of indy_driver_py
+Version: 1.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

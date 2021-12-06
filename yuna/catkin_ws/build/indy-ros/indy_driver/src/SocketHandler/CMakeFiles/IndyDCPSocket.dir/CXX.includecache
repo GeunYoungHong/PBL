@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/choi/catkin_ws/src/indy-ros/indy_driver/src/SocketHandler/IndyDCPSocket.cpp
+IndyDCPSocket.h
+/home/choi/catkin_ws/src/indy-ros/indy_driver/src/SocketHandler/IndyDCPSocket.h
+
+/home/choi/catkin_ws/src/indy-ros/indy_driver/src/SocketHandler/IndyDCPSocket.h
+stdio.h
+-
+unistd.h
+-
+stdlib.h
+-
+string.h
+-
+fcntl.h
+-
+sys/types.h
+-
+sys/socket.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+errno.h
+-
+math.h
+-
+iostream
+-
+thread
+-
+SocketDefine.h
+/home/choi/catkin_ws/src/indy-ros/indy_driver/src/SocketHandler/SocketDefine.h
+
+/home/choi/catkin_ws/src/indy-ros/indy_driver/src/SocketHandler/SocketDefine.h
+

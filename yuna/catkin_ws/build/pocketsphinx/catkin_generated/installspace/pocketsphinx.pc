@@ -1,0 +1,8 @@
+prefix=/home/choi/catkin_ws/install
+
+Name: pocketsphinx
+Description: Description of pocketsphinx
+Version: 1.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
