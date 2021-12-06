@@ -21,7 +21,7 @@ group = moveit_commander.MoveGroupCommander(group_name)
 display_trajectory_publisher = rospy.Publisher('/move_group/display_planned_path',
                                                moveit_msgs.msg.DisplayTrajectory,
                                                queue_size=20)
-print("1")
+                                               
 planning_frame = group.get_planning_frame()
 eef_link = group.get_end_effector_link()
 group_names = robot.get_group_names()
