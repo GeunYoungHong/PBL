@@ -22,11 +22,11 @@ sudo apt install ros-noetic-ros1-bridge
 ```
 
 ### Terminal 1 (gazebo 실행)
-$ source /opt/ros/noetic/setup.bash
-
-$ source ~/catkin_ws/devel/setup.bash 
-
-$ roslaunch indy7_gazebo indy7_moveit_gazebo.table.launch 
+```
+source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash 
+roslaunch indy7_gazebo indy7_moveit_gazebo.table.launch 
+```
 
 ### Terminal 2 (음성 인식 실행)
 $ source /opt/ros/foxy/setup.bash 
