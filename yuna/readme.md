@@ -1,5 +1,9 @@
 ## Indy7 Control using Voice Recognition
 
+```
+git clone https://github.com/GeunYoungHong/PBL.git
+```
+
 ### ROS1 실행
 ```
 cd PBL/catkin_ws
