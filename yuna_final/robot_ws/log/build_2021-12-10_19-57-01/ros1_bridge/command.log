@@ -1,0 +1,2 @@
+Invoking command in '/home/choi/robot_ws/build/ros1_bridge': /usr/bin/cmake /home/choi/robot_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/ros1_bridge
+Invoked command in '/home/choi/robot_ws/build/ros1_bridge' returned '1': /usr/bin/cmake /home/choi/robot_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/ros1_bridge
