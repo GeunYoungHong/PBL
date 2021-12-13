@@ -1,13 +1,12 @@
 ## Indy7 Control using Voice Recognition
 
 ### ROS1 실행
-'cd PBL/catkin_ws'
-
-$ source /opt/ros/noetic/setup.bash 
-
-$ source ~/catkin_ws/devel/setup.bash 
-
-$ catkin_make 
+```
+cd PBL/catkin_ws
+source /opt/ros/noetic/setup.bash 
+source ~/catkin_ws/devel/setup.bash 
+catkin_make 
+```
 
 ### ROS2 실행
 $ cd PBL/robot_ws
