@@ -1,2 +1,0 @@
-indy-ros/indy7_control:indy-ros/indy7_description:indy-ros/indy7_gazebo:indy-ros/indy7_moveit_config:indy-ros/indy_driver:indy-ros/indy_driver_py:indy-ros/indyrp2_description:indy-ros/indyrp2_moveit_config:indy-voice:realsense_gazebo_plugin_smc:turtlebot3_simulations/turtlebot3_fake:turtlebot3_simulations/turtlebot3_gazebo:turtlebot3_simulations/turtlebot3_simulations
--DCATKIN_DEVEL_PREFIX=/home/choi/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/choi/catkin_ws/install -G Unix Makefiles

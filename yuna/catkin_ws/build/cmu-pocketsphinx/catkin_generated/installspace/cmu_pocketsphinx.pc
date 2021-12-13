@@ -1,8 +1,0 @@
-prefix=/home/choi/catkin_ws/install
-
-Name: cmu_pocketsphinx
-Description: Description of cmu_pocketsphinx
-Version: 1.0.2
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

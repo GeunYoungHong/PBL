@@ -1,8 +1,0 @@
-prefix=/home/choi/catkin_ws/devel
-
-Name: indy7_dcp_example
-Description: Description of indy7_dcp_example
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
