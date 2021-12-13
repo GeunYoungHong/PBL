@@ -17,7 +17,9 @@ colcon build
 ```
 
 ### ROS1 - ROS2 bridge 설치
-`sudo apt install ros-noetic-ros1-bridge`
+```
+sudo apt install ros-noetic-ros1-bridge
+```
 
 ### Terminal 1 (gazebo 실행)
 $ source /opt/ros/noetic/setup.bash
