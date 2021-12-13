@@ -1,6 +1,6 @@
 ## Indy7 Control using Voice Recognition
 
-# ROS1 실행
+### ROS1 실행
 $ cd PBL/catkin_ws 
 
 $ 
