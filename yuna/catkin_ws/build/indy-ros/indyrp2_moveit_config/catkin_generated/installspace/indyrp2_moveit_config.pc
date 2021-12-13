@@ -1,0 +1,8 @@
+prefix=/home/choi/catkin_ws/install
+
+Name: indyrp2_moveit_config
+Description: Description of indyrp2_moveit_config
+Version: 1.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

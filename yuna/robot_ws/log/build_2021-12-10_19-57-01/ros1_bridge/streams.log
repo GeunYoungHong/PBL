@@ -1,0 +1,34 @@
+[0.012s] Invoking command in '/home/choi/robot_ws/build/ros1_bridge': /usr/bin/cmake /home/choi/robot_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/ros1_bridge
+[0.047s] -- The C compiler identification is GNU 9.3.0
+[0.082s] -- The CXX compiler identification is GNU 9.3.0
+[0.085s] -- Check for working C compiler: /usr/bin/cc
+[0.128s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.128s] -- Detecting C compiler ABI info
+[0.172s] -- Detecting C compiler ABI info - done
+[0.179s] -- Detecting C compile features
+[0.179s] -- Detecting C compile features - done
+[0.180s] -- Check for working CXX compiler: /usr/bin/c++
+[0.240s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.240s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.299s] -- Detecting CXX compile features
+[0.299s] -- Detecting CXX compile features - done
+[0.307s] CMake Error at CMakeLists.txt:13 (find_package):
+[0.307s]   By not providing "Findrmw.cmake" in CMAKE_MODULE_PATH this project has
+[0.307s]   asked CMake to find a package configuration file provided by "rmw", but
+[0.307s]   CMake did not find one.
+[0.307s] 
+[0.307s]   Could not find a package configuration file provided by "rmw" with any of
+[0.307s]   the following names:
+[0.307s] 
+[0.307s]     rmwConfig.cmake
+[0.307s]     rmw-config.cmake
+[0.307s] 
+[0.307s]   Add the installation prefix of "rmw" to CMAKE_PREFIX_PATH or set "rmw_DIR"
+[0.307s]   to a directory containing one of the above files.  If "rmw" provides a
+[0.307s]   separate development package or SDK, be sure it has been installed.
+[0.307s] 
+[0.307s] 
+[0.307s] -- Configuring incomplete, errors occurred!
+[0.307s] See also "/home/choi/robot_ws/build/ros1_bridge/CMakeFiles/CMakeOutput.log".
+[0.309s] Invoked command in '/home/choi/robot_ws/build/ros1_bridge' returned '1': /usr/bin/cmake /home/choi/robot_ws/src/ros1_bridge -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/ros1_bridge
