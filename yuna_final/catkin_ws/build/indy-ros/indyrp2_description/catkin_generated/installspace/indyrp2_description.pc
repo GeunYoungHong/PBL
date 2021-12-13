@@ -1,0 +1,8 @@
+prefix=/home/choi/catkin_ws/install
+
+Name: indyrp2_description
+Description: Description of indyrp2_description
+Version: 1.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
