@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 9.3.0
+-- The CXX compiler identification is GNU 9.3.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/choi/robot_ws/build/rqt_example
+-- Install configuration: ""
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/pythonpath.sh
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/pythonpath.dsv
+-- Installing: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example
+-- Installing: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples_widget.py
+-- Installing: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples.py
+-- Installing: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/__init__.py
+Listing '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example'...
+Compiling '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/__init__.py'...
+Compiling '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples.py'...
+Compiling '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples_widget.py'...
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/plugin.xml
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/logo.png
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/lab.png
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/rqt_example.ui
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/resource.qrc
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/launch
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/launch/turtlesim.launch.py
+-- Installing: /home/choi/robot_ws/install/rqt_example/lib/rqt_example/rqt_example
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/ament_index/resource_index/package_run_dependencies/rqt_example
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/ament_index/resource_index/parent_prefix_path/rqt_example
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/ament_prefix_path.sh
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/ament_prefix_path.dsv
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/path.sh
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/path.dsv
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.bash
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.sh
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.zsh
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.dsv
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/package.dsv
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/ament_index/resource_index/packages/rqt_example
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/cmake/rqt_exampleConfig.cmake
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/cmake/rqt_exampleConfig-version.cmake
+-- Installing: /home/choi/robot_ws/install/rqt_example/share/rqt_example/package.xml
