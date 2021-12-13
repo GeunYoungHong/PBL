@@ -1,0 +1,8 @@
+prefix=/home/choi/catkin_ws/devel
+
+Name: indy7_description
+Description: Description of indy7_description
+Version: 1.0.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
