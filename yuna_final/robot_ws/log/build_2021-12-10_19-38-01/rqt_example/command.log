@@ -1,0 +1,6 @@
+Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/choi/robot_ws/src/rqt_example -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/rqt_example
+Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake /home/choi/robot_ws/src/rqt_example -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/rqt_example
+Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/choi/robot_ws/build/rqt_example -- -j8 -l8
+Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --build /home/choi/robot_ws/build/rqt_example -- -j8 -l8
+Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/choi/robot_ws/build/rqt_example
+Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy:${CMAKE_PREFIX_PATH} /usr/bin/cmake --install /home/choi/robot_ws/build/rqt_example
