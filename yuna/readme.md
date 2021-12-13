@@ -9,16 +9,15 @@ catkin_make
 ```
 
 ### ROS2 실행
-$ cd PBL/robot_ws
-
-$ source /opt/ros/foxy/setup.bash 
-
-$ source ~/robot_ws/install/local_setup.bash 
-
-$ colcon build 
+```
+cd PBL/robot_ws
+source /opt/ros/foxy/setup.bash 
+source ~/robot_ws/install/local_setup.bash 
+colcon build 
+```
 
 ### ROS1 - ROS2 bridge 설치
-$ sudo apt install ros-noetic-ros1-bridge 
+`sudo apt install ros-noetic-ros1-bridge`
 
 ### Terminal 1 (gazebo 실행)
 $ source /opt/ros/noetic/setup.bash
