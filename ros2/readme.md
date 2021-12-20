@@ -18,28 +18,29 @@
 ## ROS2 colcon build
 ```
 mkdir -p robot_ws/src
-git clone git@github.com:GeunYoungHong/PBL.git
+git clone https://github.com/GeunYoungHong/PBL.git
 cd ..
 colcon build symlink-install
 ```
 
-## 예제
+## Example
+
 ### Terminal 1
 ```bash
 cd ~/robot_ws && source install/setup.bash
 ros2 launch indy7_ign_moveit2 example_topic.launch.py 
 ```
-## Terminal 2
+### Terminal 2
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 run rqt_example rqt_example
 ```
-## Terminal 3 (check publisher between voice recognition and indy7)
+### Terminal 3 (check publisher between voice recognition and indy7)
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 topic echo /xyz_pose
 ```
-## Termianl 4 (if needed to check indy7 is working or not in ros2)
+### Termianl 4 (if needed to check indy7 is working or not in ros2)
 ```
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "x 1"' # move to x-axis by 1cm
