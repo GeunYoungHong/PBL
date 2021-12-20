@@ -1,6 +1,9 @@
 ## ROS1 bridge를 이용한 방법
 
 * ROS1 bridge를 이용하여 ROS2 음성인식를 통해 ROS1 Gazebo 환경에서 Indy7를 조작하는 프로젝트 입니다.
+```
+git clone https://github.com/GeunYoungHong/PBL.git
+```
 
 ## Dependency
 
@@ -11,10 +14,6 @@ sudo apt install ros-noetic-ros1-bridge
 - python3 voice recognition module Install 
 ```
 pip3 install SpeechRecognition
-```
-- git Download
-```
-git clone https://github.com/GeunYoungHong/PBL.git
 ```
 
 ## ROS1 build
