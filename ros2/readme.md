@@ -28,22 +28,22 @@ colcon build symlink-install
 
 ## Example
 
-### Terminal 1
+-### Terminal 1
 ```bash
 cd ~/robot_ws && source install/setup.bash
 ros2 launch indy7_ign_moveit2 example_topic.launch.py 
 ```
-### Terminal 2
+-### Terminal 2
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 run rqt_example rqt_example
 ```
-### Terminal 3 (check publisher between voice recognition and indy7)
+-### Terminal 3 (check publisher between voice recognition and indy7)
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 topic echo /xyz_pose
 ```
-### Termianl 4 (if needed to check indy7 is working or not in ros2)
+-### Termianl 4 (if needed to check indy7 is working or not in ros2)
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 
