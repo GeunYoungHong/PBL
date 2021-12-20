@@ -15,11 +15,11 @@
   - [indy7_ign](https://github.com/HYU-PBLRC-PB1/indy7_ign.git)
   - [indy7_moveit2_config](https://github.com/HYU-PBLRC-PB1/indy7_moveit2_config.git)
 
-## ROS2 환경에서 voice recognition으로 indy7의 position teaching 구현 코드 colcon build
+## ROS2 colcon build
 ```
 mkdir -p robot_ws/src
-git clone git@github.com:GeunYoungHong/PBL -b ros_2
-cd robot_ws
+git clone git@github.com:GeunYoungHong/PBL.git
+cd ..
 colcon build symlink-install
 ```
 
