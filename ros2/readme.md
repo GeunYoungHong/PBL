@@ -16,12 +16,12 @@
   - [indy7_moveit2_config](https://github.com/HYU-PBLRC-PB1/indy7_moveit2_config.git)
 
 ## ROS2 colcon build
-```
-mkdir PBL
+```bash
 git clone https://github.com/GeunYoungHong/PBL.git
 
-mv 
-cd ..
+cd PBL/ros2/
+mv indy7_ign_moveit2/ indy7_moveit2_config/ indy~~~/ rqt_example/ ~/robot_ws
+cd robot_ws/
 colcon build symlink-install
 ```
 
