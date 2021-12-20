@@ -1,1 +1,0 @@
-/home/choi/robot_ws/src/indy7_ign/launch/indy7_display.launch.py

@@ -1,1 +1,0 @@
-/home/choi/robot_ws/build/indy7_ign_moveit2/ament_cmake_environment_hooks/local_setup.bash

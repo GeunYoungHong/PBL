@@ -1,1 +1,0 @@
-/home/choi/robot_ws/src/indy7_ign_moveit2/examples/python/example_gripper.py
