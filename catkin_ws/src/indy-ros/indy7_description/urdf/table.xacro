@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<robot name="table" xmlns:xacro="http://ros.org/wiki/xacro">
+	<!-- <material name="grey"> <color rgba="0.5 0.5 0.5 1"/> </material> -->
+
+	
+	<link name="table">
+		<visual>
+			<origin xyz="0 0 0" rpy="1.57079 0 1.57079"/>
+			<geometry>
+				<mesh filename="package://indy7_description/meshes/table/table.obj"/>
+			</geometry>
+		</visual>
+		<collision>
+			<origin xyz="0 0 0.0" rpy="1.57079 0 1.57079"/>
+			<geometry>
+				<mesh filename="package://indy7_description/meshes/table/table.obj"/>
+			</geometry>
+		</collision>
+		<inertial>
+			<origin xyz="0 0 0" rpy="0 0 0"/>
+			<mass value="1.59306955"/>
+			<inertia ixx="+0.00572623" iyy="+0.00558959" izz="+0.00966674" ixy="+0.00000251" iyz="-0.00000014" ixz="-0.00011380"/>
+		</inertial>
+	</link>
+
+
+</robot>
