@@ -32,7 +32,8 @@ colcon build symlink-install
 ## Example
 
 ### Terminal 1
-```
+```bash
+cd ~/catkin_ws
 source /opt/ros/noetic/setup.bash
 source ~/catkin_ws/devel/setup.bash
 
