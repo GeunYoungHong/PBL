@@ -8,6 +8,10 @@
 ```
 sudo apt install ros-noetic-ros1-bridge
 ```
+- python3 voice recognition module Install 
+```
+pip3 install SpeechRecognition
+```
 
 ## ROS2 colcon build
 ```
