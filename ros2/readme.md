@@ -41,15 +41,15 @@ ros2 run rqt_example rqt_example
 ### Terminal 3 (check publisher between voice recognition and indy7)
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
-ros2 topic echo /xyz_pose
+ros2 topic echo /Voice
 ```
 ### Termianl 4 (if needed to check indy7 is working or not in ros2)
 ```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 
-ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "x 1"' # move to x-axis by 1cm
+ros2 topic pub --once /Voice std_msgs/msg/String 'data: "x 1"' # move to x-axis by 1cm
 # wait for 5 seconds!
-ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "y 2"' # move to y-axis by 1cm
+ros2 topic pub --once /Voice std_msgs/msg/String 'data: "y 2"' # move to y-axis by 1cm
 # wait for 5 seconds!
-ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "j nu"' # move to initial job position
+ros2 topic pub --once /Voice std_msgs/msg/String 'data: "j nu"' # move to initial job position
 ```
