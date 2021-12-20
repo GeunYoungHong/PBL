@@ -1,7 +1,7 @@
 # ROS2
 
 * PBL 1조의 코드를 참고해서 작성되었습니다.
-* indy7_ign_moveit2 - MoveIt2 interface를 이용하여 Ignition Gazebo 환경에서 Indy7를 조작
+* [indy7_ign_moveit2] MoveIt2 interface를 이용하여 Ignition Gazebo 환경에서 Indy7를 조작
 
 ## 의존성
 - [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation.html)
