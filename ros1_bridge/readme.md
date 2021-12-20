@@ -14,7 +14,7 @@ pip3 install SpeechRecognition
 ```
 
 ## ROS1 build
-```
+```bash
 mkdir -p robot_ws/src
 git clone https://github.com/GeunYoungHong/PBL.git
 cd ..
@@ -22,7 +22,7 @@ colcon build symlink-install
 ```
 
 ## ROS2 colcon build
-```
+```bash
 mkdir -p robot_ws/src
 git clone https://github.com/GeunYoungHong/PBL.git
 cd ..
