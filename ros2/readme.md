@@ -41,7 +41,7 @@ cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 topic echo /xyz_pose
 ```
 ### Termianl 4 (if needed to check indy7 is working or not in ros2)
-```
+```bash
 cd ~/robot_ws && source ~/robot_ws/install/setup.bash
 ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "x 1"' # move to x-axis by 1cm
 # wait for 5 seconds!
