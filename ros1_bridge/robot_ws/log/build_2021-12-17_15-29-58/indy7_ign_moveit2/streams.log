@@ -1,0 +1,88 @@
+[0.016s] Invoking command in '/home/choi/robot_ws/build/indy7_ign_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign_moveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign_moveit2
+[0.040s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.056s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.185s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.235s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.240s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.272s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.275s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.376s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.420s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.421s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.536s] -- Found moveit_ros_planning_interface: 2.2.2 (/opt/ros/foxy/share/moveit_ros_planning_interface/cmake)
+[0.540s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[0.553s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: date_time filesystem program_options system thread 
+[1.601s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[1.649s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[2.291s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread chrono 
+[2.511s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread 
+[3.054s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: thread system filesystem regex date_time program_options 
+[3.348s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0") found components: system filesystem date_time program_options thread 
+[3.820s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.821s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.821s] -- Configured cppcheck include dirs: 
+[3.821s] -- Configured cppcheck exclude dirs and/or files: 
+[3.822s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.822s] -- Configured cpplint exclude dirs and/or files: 
+[3.822s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.823s] -- Added test 'lint_cmake' to check CMake code style
+[3.823s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.824s] -- Added test 'uncrustify' to check C / C++ code style
+[3.824s] -- Configured uncrustify additional arguments: 
+[3.824s] -- Added test 'xmllint' to check XML markup files
+[3.827s] -- Configuring done
+[3.862s] -- Generating done
+[3.864s] -- Build files have been written to: /home/choi/robot_ws/build/indy7_ign_moveit2
+[3.871s] Invoked command in '/home/choi/robot_ws/build/indy7_ign_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign_moveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign_moveit2
+[3.873s] Invoking command in '/home/choi/robot_ws/build/indy7_ign_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign_moveit2 -- -j8 -l8
+[3.929s] [35m[1mScanning dependencies of target example_ign_moveit2[0m
+[3.964s] [ 50%] [32mBuilding CXX object CMakeFiles/example_ign_moveit2.dir/examples/cpp/example_ign_moveit2.cpp.o[0m
+[11.231s] [100%] [32m[1mLinking CXX executable example_ign_moveit2[0m
+[11.617s] [100%] Built target example_ign_moveit2
+[11.624s] Invoked command in '/home/choi/robot_ws/build/indy7_ign_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign_moveit2 -- -j8 -l8
+[11.639s] Invoking command in '/home/choi/robot_ws/build/indy7_ign_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign_moveit2
+[11.645s] -- Install configuration: ""
+[11.645s] -- Execute custom install script
+[11.646s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_ign_moveit2
+[11.646s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/environment/pythonpath.sh
+[11.646s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/environment/pythonpath.dsv
+[11.646s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/python3.8/site-packages/moveit2.py
+[11.646s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_joint_goal.py
+[11.647s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_pose_goal.py
+[11.647s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_follow_object.py
+[11.647s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_follow_object_wait_until_executed.py
+[11.647s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_follow_object_direct.py
+[11.647s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_gripper.py
+[11.647s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_throw.py
+[11.647s] -- Symlinking: /home/choi/robot_ws/install/indy7_ign_moveit2/lib/indy7_ign_moveit2/example_topic.py
+[11.654s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/example_cpp.launch.py
+[11.654s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/example_follow_object.launch.py
+[11.654s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/example_follow_object_direct.launch.py
+[11.655s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/example_follow_object_wait_until_executed.launch.py
+[11.655s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/example_throw.launch.py
+[11.655s] -- Symlinking: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/example_topic.launch.py
+[11.663s] -- Symlinking: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/worlds/world_indy7_empty.launch.py
+[11.668s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/worlds/world_indy7_follow.launch.py
+[11.668s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/examples/worlds/world_indy7_throw.launch.py
+[11.669s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/ign_moveit2.launch.py
+[11.669s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/launch/rviz.rviz
+[11.669s] -- Symlinking: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/worlds/indy7_empty.sdf
+[11.674s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/worlds/indy7_follow.sdf
+[11.674s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/worlds/indy7_throw.sdf
+[11.675s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/ament_index/resource_index/package_run_dependencies/indy7_ign_moveit2
+[11.675s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/ament_index/resource_index/parent_prefix_path/indy7_ign_moveit2
+[11.676s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/environment/ament_prefix_path.sh
+[11.676s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/environment/ament_prefix_path.dsv
+[11.676s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/environment/path.sh
+[11.676s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/environment/path.dsv
+[11.676s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/local_setup.bash
+[11.677s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/local_setup.sh
+[11.677s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/local_setup.zsh
+[11.677s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/local_setup.dsv
+[11.677s] -- Symlinking: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.dsv
+[11.684s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/ament_index/resource_index/packages/indy7_ign_moveit2
+[11.684s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/cmake/indy7_ign_moveit2Config.cmake
+[11.685s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/cmake/indy7_ign_moveit2Config-version.cmake
+[11.685s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.xml
+[11.707s] Compiling '/home/choi/robot_ws/install/indy7_ign_moveit2/lib/python3.8/site-packages/moveit2.py'...
+[11.712s] Invoked command in '/home/choi/robot_ws/build/indy7_ign_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign_moveit2

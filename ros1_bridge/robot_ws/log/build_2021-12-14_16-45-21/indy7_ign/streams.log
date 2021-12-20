@@ -1,0 +1,43 @@
+[0.022s] Invoking command in '/home/choi/robot_ws/build/indy7_ign': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign -- -j8 -l8
+[0.048s] Invoked command in '/home/choi/robot_ws/build/indy7_ign' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign -- -j8 -l8
+[0.073s] Invoking command in '/home/choi/robot_ws/build/indy7_ign': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign
+[0.081s] -- Install configuration: ""
+[0.081s] -- Execute custom install script
+[0.081s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/.vscode/c_cpp_properties.json
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/.vscode/settings.json
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/indy7.urdf
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/table.xacro
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link0.stl
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link1.stl
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link2.stl
+[0.082s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link3.stl
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link4.stl
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link5.stl
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link6.stl
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/table/map.png
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/table/table.dae
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/table/table.mtl
+[0.083s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/table/table.obj
+[0.084s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link0.stl
+[0.084s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link1.stl
+[0.084s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link2.stl
+[0.084s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link3.stl
+[0.084s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link4.stl
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link5.stl
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link6.stl
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/ament_index/resource_index/package_run_dependencies/indy7_ign
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/ament_index/resource_index/parent_prefix_path/indy7_ign
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/ament_prefix_path.sh
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/ament_prefix_path.dsv
+[0.085s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/path.sh
+[0.086s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/path.dsv
+[0.086s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.bash
+[0.086s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.sh
+[0.086s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.zsh
+[0.086s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.dsv
+[0.086s] -- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/package.dsv
+[0.092s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/ament_index/resource_index/packages/indy7_ign
+[0.092s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/cmake/indy7_ignConfig.cmake
+[0.093s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/cmake/indy7_ignConfig-version.cmake
+[0.093s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/package.xml
+[0.098s] Invoked command in '/home/choi/robot_ws/build/indy7_ign' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign

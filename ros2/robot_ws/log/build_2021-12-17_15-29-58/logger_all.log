@@ -1,0 +1,218 @@
+[0.222s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.222s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fab73064250>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fab73064250>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fab731865b0>)
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.228s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.228s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/choi/robot_ws'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.228s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.229s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.236s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extensions ['ignore', 'ignore_ament_install']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extension 'ignore'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extension 'ignore_ament_install'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extensions ['colcon_pkg']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extension 'colcon_pkg'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extensions ['colcon_meta']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extension 'colcon_meta'
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extensions ['ros']
+[0.237s] Level 1:colcon.colcon_core.package_identification:_identify(src/indy7_ign_moveit2) by extension 'ros'
+[0.239s] DEBUG:colcon.colcon_core.package_identification:Package 'src/indy7_ign_moveit2' with type 'ros.ament_cmake' and name 'indy7_ign_moveit2'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extensions ['ignore', 'ignore_ament_install']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extension 'ignore'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extension 'ignore_ament_install'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extensions ['colcon_pkg']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extension 'colcon_pkg'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extensions ['colcon_meta']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extension 'colcon_meta'
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extensions ['ros']
+[0.239s] Level 1:colcon.colcon_core.package_identification:_identify(src/rqt_example) by extension 'ros'
+[0.240s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rqt_example' with type 'ros.ament_cmake' and name 'rqt_example'
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.240s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'cmake_target' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'cmake_clean_first' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'cmake_force_configure' from command line to 'False'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'ament_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.254s] Level 5:colcon.colcon_core.verb:set package 'indy7_ign_moveit2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.254s] DEBUG:colcon.colcon_core.verb:Building package 'indy7_ign_moveit2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/robot_ws/build/indy7_ign_moveit2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/robot_ws/install/indy7_ign_moveit2', 'merge_install': False, 'path': '/home/choi/robot_ws/src/indy7_ign_moveit2', 'symlink_install': True, 'test_result_base': None}
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_target' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.256s] Level 5:colcon.colcon_core.verb:set package 'rqt_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.256s] DEBUG:colcon.colcon_core.verb:Building package 'rqt_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/choi/robot_ws/build/rqt_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/choi/robot_ws/install/rqt_example', 'merge_install': False, 'path': '/home/choi/robot_ws/src/rqt_example', 'symlink_install': True, 'test_result_base': None}
+[0.256s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/choi/robot_ws/src/indy7_ign_moveit2' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/choi/robot_ws/src/indy7_ign_moveit2'
+[0.262s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/choi/robot_ws/src/rqt_example' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/choi/robot_ws/src/rqt_example'
+[0.267s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/robot_ws/build/indy7_ign_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign_moveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign_moveit2
+[0.281s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/rqt_example
+[0.513s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/rqt_example
+[0.515s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/rqt_example -- -j8 -l8
+[0.539s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/rqt_example -- -j8 -l8
+[0.559s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/rqt_example
+[0.599s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_example)
+[0.600s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/rqt_example
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example' for CMake module files
+[0.604s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example' for CMake config files
+[0.604s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_example', 'cmake_prefix_path')
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.ps1'
+[0.605s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.dsv'
+[0.606s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.sh'
+[0.606s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/lib'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/bin'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/lib/pkgconfig/rqt_example.pc'
+[0.607s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages'
+[0.607s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_example', 'pythonpath')
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/pythonpath.ps1'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/pythonpath.dsv'
+[0.607s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/pythonpath.sh'
+[0.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.ps1'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.dsv'
+[0.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.sh'
+[0.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.bash'
+[0.611s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.zsh'
+[0.611s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/robot_ws/install/rqt_example/share/colcon-core/packages/rqt_example)
+[0.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rqt_example)
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example' for CMake module files
+[0.626s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example' for CMake config files
+[0.626s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_example', 'cmake_prefix_path')
+[0.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.ps1'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.dsv'
+[0.627s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/cmake_prefix_path.sh'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/lib'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/bin'
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/lib/pkgconfig/rqt_example.pc'
+[0.628s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages'
+[0.628s] Level 1:colcon.colcon_core.shell:create_environment_hook('rqt_example', 'pythonpath')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/pythonpath.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/pythonpath.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/rqt_example/share/rqt_example/hook/pythonpath.sh'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.sh'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.bash'
+[0.630s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/rqt_example/share/rqt_example/package.zsh'
+[0.630s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/robot_ws/install/rqt_example/share/colcon-core/packages/rqt_example)
+[4.129s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/robot_ws/build/indy7_ign_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign_moveit2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign_moveit2
+[4.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/robot_ws/build/indy7_ign_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign_moveit2 -- -j8 -l8
+[11.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/robot_ws/build/indy7_ign_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign_moveit2 -- -j8 -l8
+[11.897s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/choi/robot_ws/build/indy7_ign_moveit2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign_moveit2
+[11.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(indy7_ign_moveit2)
+[11.970s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2' for CMake module files
+[11.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/choi/robot_ws/build/indy7_ign_moveit2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign_moveit2
+[11.970s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2' for CMake config files
+[11.971s] Level 1:colcon.colcon_core.shell:create_environment_hook('indy7_ign_moveit2', 'cmake_prefix_path')
+[11.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/cmake_prefix_path.ps1'
+[11.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/cmake_prefix_path.dsv'
+[11.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/cmake_prefix_path.sh'
+[11.972s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/lib'
+[11.972s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/bin'
+[11.973s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/lib/pkgconfig/indy7_ign_moveit2.pc'
+[11.973s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/lib/python3.8/site-packages'
+[11.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('indy7_ign_moveit2', 'pythonpath')
+[11.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/pythonpath.ps1'
+[11.973s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/pythonpath.dsv'
+[11.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/pythonpath.sh'
+[11.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.ps1'
+[11.974s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.dsv'
+[11.974s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.sh'
+[11.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.bash'
+[11.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.zsh'
+[11.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/robot_ws/install/indy7_ign_moveit2/share/colcon-core/packages/indy7_ign_moveit2)
+[11.989s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(indy7_ign_moveit2)
+[11.990s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2' for CMake module files
+[11.990s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2' for CMake config files
+[11.991s] Level 1:colcon.colcon_core.shell:create_environment_hook('indy7_ign_moveit2', 'cmake_prefix_path')
+[11.991s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/cmake_prefix_path.ps1'
+[11.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/cmake_prefix_path.dsv'
+[11.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/cmake_prefix_path.sh'
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/lib'
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/bin'
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/lib/pkgconfig/indy7_ign_moveit2.pc'
+[11.992s] Level 1:colcon.colcon_core.environment:checking '/home/choi/robot_ws/install/indy7_ign_moveit2/lib/python3.8/site-packages'
+[11.992s] Level 1:colcon.colcon_core.shell:create_environment_hook('indy7_ign_moveit2', 'pythonpath')
+[11.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/pythonpath.ps1'
+[11.993s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/pythonpath.dsv'
+[11.993s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/hook/pythonpath.sh'
+[11.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.ps1'
+[11.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.dsv'
+[11.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.sh'
+[11.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.bash'
+[11.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/choi/robot_ws/install/indy7_ign_moveit2/share/indy7_ign_moveit2/package.zsh'
+[11.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/choi/robot_ws/install/indy7_ign_moveit2/share/colcon-core/packages/indy7_ign_moveit2)
+[11.994s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[11.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[11.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[11.995s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[11.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[11.999s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[11.999s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[12.010s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[12.010s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/robot_ws/install/local_setup.ps1'
+[12.011s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/choi/robot_ws/install/_local_setup_util_ps1.py'
+[12.012s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/robot_ws/install/setup.ps1'
+[12.014s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/robot_ws/install/local_setup.sh'
+[12.014s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/choi/robot_ws/install/_local_setup_util_sh.py'
+[12.015s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/robot_ws/install/setup.sh'
+[12.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/robot_ws/install/local_setup.bash'
+[12.016s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/robot_ws/install/setup.bash'
+[12.018s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/choi/robot_ws/install/local_setup.zsh'
+[12.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/choi/robot_ws/install/setup.zsh'

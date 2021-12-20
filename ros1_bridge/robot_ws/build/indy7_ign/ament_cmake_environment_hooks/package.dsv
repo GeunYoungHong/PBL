@@ -1,0 +1,4 @@
+source;share/indy7_ign/local_setup.bash
+source;share/indy7_ign/local_setup.dsv
+source;share/indy7_ign/local_setup.sh
+source;share/indy7_ign/local_setup.zsh

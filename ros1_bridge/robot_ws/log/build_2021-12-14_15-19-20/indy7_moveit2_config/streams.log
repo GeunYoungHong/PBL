@@ -1,0 +1,42 @@
+[0.044s] Invoking command in '/home/choi/robot_ws/build/indy7_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_moveit2_config -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_moveit2_config
+[0.118s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.120s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.496s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.644s] -- Configuring done
+[0.646s] -- Generating done
+[0.649s] -- Build files have been written to: /home/choi/robot_ws/build/indy7_moveit2_config
+[0.659s] Invoked command in '/home/choi/robot_ws/build/indy7_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_moveit2_config -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_moveit2_config
+[0.661s] Invoking command in '/home/choi/robot_ws/build/indy7_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_moveit2_config -- -j8 -l8
+[0.742s] Invoked command in '/home/choi/robot_ws/build/indy7_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_moveit2_config -- -j8 -l8
+[0.779s] Invoking command in '/home/choi/robot_ws/build/indy7_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_moveit2_config
+[0.796s] -- Install configuration: ""
+[0.797s] -- Execute custom install script
+[0.798s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/config/fake_control/controllers.yaml
+[0.799s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/config/fake_control/indy7_arm_controller.yaml
+[0.799s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/config/fake_control/start_position.yaml
+[0.800s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/config/joint_limits.yaml
+[0.800s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/config/kinematics.yaml
+[0.800s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/config/ompl_planning.yaml
+[0.803s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/srdf/indy7.srdf
+[0.805s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/srdf/indy7_arm.srdf.xacro
+[0.806s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/srdf/indy7_arm.xacro
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/launch/move_group_action_server.launch.py
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/launch/move_group_fake_control.launch.py
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/launch/rviz.rviz
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/launch/rviz_interactive.rviz
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/ament_index/resource_index/package_run_dependencies/indy7_moveit2_config
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/ament_index/resource_index/parent_prefix_path/indy7_moveit2_config
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/environment/ament_prefix_path.sh
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/environment/ament_prefix_path.dsv
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/environment/path.sh
+[0.807s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/environment/path.dsv
+[0.808s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/local_setup.bash
+[0.808s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/local_setup.sh
+[0.810s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/local_setup.zsh
+[0.810s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/local_setup.dsv
+[0.810s] -- Symlinking: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/package.dsv
+[0.832s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/ament_index/resource_index/packages/indy7_moveit2_config
+[0.833s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/cmake/indy7_moveit2_configConfig.cmake
+[0.833s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/cmake/indy7_moveit2_configConfig-version.cmake
+[0.833s] -- Up-to-date symlink: /home/choi/robot_ws/install/indy7_moveit2_config/share/indy7_moveit2_config/package.xml
+[0.849s] Invoked command in '/home/choi/robot_ws/build/indy7_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_moveit2_config

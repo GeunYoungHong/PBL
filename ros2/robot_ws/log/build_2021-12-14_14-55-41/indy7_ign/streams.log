@@ -1,0 +1,34 @@
+[0.023s] Invoking command in '/home/choi/robot_ws/build/indy7_ign': /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign
+[0.136s] -- The C compiler identification is GNU 9.3.0
+[0.234s] -- The CXX compiler identification is GNU 9.3.0
+[0.240s] -- Check for working C compiler: /usr/bin/cc
+[0.308s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.309s] -- Detecting C compiler ABI info
+[0.368s] -- Detecting C compiler ABI info - done
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.383s] -- Check for working CXX compiler: /usr/bin/c++
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.459s] -- Detecting CXX compiler ABI info
+[0.535s] -- Detecting CXX compiler ABI info - done
+[0.548s] -- Detecting CXX compile features
+[0.548s] -- Detecting CXX compile features - done
+[0.561s] CMake Error at CMakeLists.txt:5 (find_package):
+[0.561s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.562s]   has asked CMake to find a package configuration file provided by
+[0.562s]   "ament_cmake", but CMake did not find one.
+[0.562s] 
+[0.562s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.562s]   any of the following names:
+[0.562s] 
+[0.562s]     ament_cmakeConfig.cmake
+[0.562s]     ament_cmake-config.cmake
+[0.562s] 
+[0.562s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.563s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.563s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.563s]   has been installed.
+[0.563s] 
+[0.563s] 
+[0.564s] -- Configuring incomplete, errors occurred!
+[0.564s] See also "/home/choi/robot_ws/build/indy7_ign/CMakeFiles/CMakeOutput.log".

@@ -1,0 +1,21 @@
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+Traceback (most recent call last):
+  File "/opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py", line 21, in <module>
+    from ament_package.templates import get_environment_hook_template_path
+ModuleNotFoundError: No module named 'ament_package'
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_package_templates-extras.cmake:41 (message):
+  execute_process(/usr/bin/python3
+  /opt/ros/foxy/share/ament_cmake_core/cmake/package_templates/templates_2_cmake.py
+  /home/choi/robot_ws/build/indy7_ign_moveit2/ament_cmake_package_templates/templates.cmake)
+  returned error code 1
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/ament_cmake_core/cmake/ament_cmake_coreConfig.cmake:41 (include)
+  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_auto-extras.cmake:21 (find_package)
+  /opt/ros/foxy/share/ament_lint_auto/cmake/ament_lint_autoConfig.cmake:41 (include)
+  CMakeLists.txt:21 (find_package)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/choi/robot_ws/build/indy7_ign_moveit2/CMakeFiles/CMakeOutput.log".
+See also "/home/choi/robot_ws/build/indy7_ign_moveit2/CMakeFiles/CMakeError.log".

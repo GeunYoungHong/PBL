@@ -1,0 +1,6 @@
+Invoking command in '/home/choi/robot_ws/build/indy7_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_moveit2_config -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_moveit2_config
+Invoked command in '/home/choi/robot_ws/build/indy7_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_moveit2_config -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_moveit2_config
+Invoking command in '/home/choi/robot_ws/build/indy7_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_moveit2_config -- -j8 -l8
+Invoked command in '/home/choi/robot_ws/build/indy7_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_moveit2_config -- -j8 -l8
+Invoking command in '/home/choi/robot_ws/build/indy7_moveit2_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_moveit2_config
+Invoked command in '/home/choi/robot_ws/build/indy7_moveit2_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_moveit2_config

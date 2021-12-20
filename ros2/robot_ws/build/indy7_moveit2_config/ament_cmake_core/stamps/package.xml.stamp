@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>indy7_moveit2_config</name>
+  <version>1.0.0</version>
+  <description>MoveIt2 configuration for Indy7 robot</description>
+  <maintainer email="pmh5050@naver.com">pmh5050</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

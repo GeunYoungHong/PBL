@@ -1,0 +1,6 @@
+Invoking command in '/home/choi/robot_ws/build/indy7_ign': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign
+Invoked command in '/home/choi/robot_ws/build/indy7_ign' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign
+Invoking command in '/home/choi/robot_ws/build/indy7_ign': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign -- -j8 -l8
+Invoked command in '/home/choi/robot_ws/build/indy7_ign' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/indy7_ign -- -j8 -l8
+Invoking command in '/home/choi/robot_ws/build/indy7_ign': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign
+Invoked command in '/home/choi/robot_ws/build/indy7_ign' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/indy7_ign

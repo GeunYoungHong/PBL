@@ -1,0 +1,41 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/choi/robot_ws/build/indy7_ign
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/.vscode/c_cpp_properties.json
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/.vscode/settings.json
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/urdf/indy7.urdf
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link0.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link1.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link2.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link3.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link4.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link5.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/collision/link6.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link0.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link1.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link2.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link3.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link4.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link5.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/meshes/visual/link6.stl
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/ament_index/resource_index/package_run_dependencies/indy7_ign
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/ament_index/resource_index/parent_prefix_path/indy7_ign
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/ament_prefix_path.sh
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/ament_prefix_path.dsv
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/path.sh
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/environment/path.dsv
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.bash
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.sh
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.zsh
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/local_setup.dsv
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/package.dsv
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/ament_index/resource_index/packages/indy7_ign
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/cmake/indy7_ignConfig.cmake
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/cmake/indy7_ignConfig-version.cmake
+-- Symlinking: /home/choi/robot_ws/install/indy7_ign/share/indy7_ign/package.xml

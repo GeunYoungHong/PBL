@@ -1,0 +1,2 @@
+Invoking command in '/home/choi/robot_ws/build/rqt_example': /usr/bin/cmake /home/choi/robot_ws/src/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/rqt_example
+Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '1': /usr/bin/cmake /home/choi/robot_ws/src/rqt_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/rqt_example

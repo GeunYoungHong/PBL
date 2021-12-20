@@ -1,0 +1,35 @@
+[0.018s] Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/rqt_example -- -j8 -l8
+[0.044s] Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/choi/robot_ws/build/rqt_example -- -j8 -l8
+[0.061s] Invoking command in '/home/choi/robot_ws/build/rqt_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/rqt_example
+[0.067s] -- Install configuration: ""
+[0.068s] -- Execute custom install script
+[0.068s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/pythonpath.sh
+[0.068s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/pythonpath.dsv
+[0.069s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/__init__.py
+[0.069s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples.py
+[0.069s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples_widget.py
+[0.069s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/plugin.xml
+[0.070s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/lab.png
+[0.070s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/logo.png
+[0.070s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/resource.qrc
+[0.070s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/resource/rqt_example.ui
+[0.071s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/launch/turtlesim.launch.py
+[0.071s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/lib/rqt_example/rqt_example
+[0.071s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/ament_index/resource_index/package_run_dependencies/rqt_example
+[0.071s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/ament_index/resource_index/parent_prefix_path/rqt_example
+[0.072s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/ament_prefix_path.sh
+[0.072s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/ament_prefix_path.dsv
+[0.072s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/path.sh
+[0.072s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/environment/path.dsv
+[0.072s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.bash
+[0.073s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.sh
+[0.073s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.zsh
+[0.073s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/local_setup.dsv
+[0.073s] -- Symlinking: /home/choi/robot_ws/install/rqt_example/share/rqt_example/package.dsv
+[0.080s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/ament_index/resource_index/packages/rqt_example
+[0.080s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/cmake/rqt_exampleConfig.cmake
+[0.080s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/cmake/rqt_exampleConfig-version.cmake
+[0.080s] -- Up-to-date symlink: /home/choi/robot_ws/install/rqt_example/share/rqt_example/package.xml
+[0.103s] Listing '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example'...
+[0.104s] Compiling '/home/choi/robot_ws/install/rqt_example/lib/python3.8/site-packages/rqt_example/examples_widget.py'...
+[0.117s] Invoked command in '/home/choi/robot_ws/build/rqt_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/choi/robot_ws/build/rqt_example

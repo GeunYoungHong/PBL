@@ -1,0 +1,1 @@
+Invoking command in '/home/choi/robot_ws/build/indy7_ign': /usr/bin/cmake /home/choi/robot_ws/src/indy7_ign -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/indy7_ign
