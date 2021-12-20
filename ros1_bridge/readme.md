@@ -13,6 +13,14 @@ sudo apt install ros-noetic-ros1-bridge
 pip3 install SpeechRecognition
 ```
 
+## ROS1 build
+```
+mkdir -p robot_ws/src
+git clone https://github.com/GeunYoungHong/PBL.git
+cd ..
+colcon build symlink-install
+```
+
 ## ROS2 colcon build
 ```
 mkdir -p robot_ws/src
@@ -24,9 +32,11 @@ colcon build symlink-install
 ## Example
 
 ### Terminal 1
-```bash
-cd ~/robot_ws && source install/setup.bash
-ros2 launch indy7_ign_moveit2 example_topic.launch.py 
+```
+source /opt/ros/noetic/setup.bash
+source ~/catkin_ws/devel/setup.bash
+
+roslaunch indy7_gazebo indy7_moveit_gazebo_table.launch
 ```
 ### Terminal 2
 ```bash
