@@ -1,0 +1,16 @@
+indy7_arm_controller:
+  ros__parameters:
+    joints:
+      - indy7_joint1
+      - indy7_joint2
+      - indy7_joint3
+      - indy7_joint4
+      - indy7_joint5
+      - indy7_joint6
+    write_op_modes:
+      - indy7_joint1
+      - indy7_joint2
+      - indy7_joint3
+      - indy7_joint4
+      - indy7_joint5
+      - indy7_joint6

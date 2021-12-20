@@ -1,0 +1,17 @@
+fake_joint_driver_node:
+  ros__parameters:
+    start_position:
+      joints:
+        - indy7_joint1
+        - indy7_joint2
+        - indy7_joint3
+        - indy7_joint4
+        - indy7_joint5
+        - indy7_joint6
+      values:
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0
+        - 0.0

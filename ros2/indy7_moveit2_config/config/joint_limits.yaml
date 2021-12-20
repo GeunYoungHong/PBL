@@ -1,0 +1,31 @@
+joint_limits:
+  indy7_joint1:
+    has_velocity_limits: true
+    max_velocity: 2.175
+    has_acceleration_limits: true
+    max_acceleration: 3.75
+  indy7_joint2:
+    has_velocity_limits: true
+    max_velocity: 2.175
+    has_acceleration_limits: true
+    max_acceleration: 3.75
+  indy7_joint3:
+    has_velocity_limits: true
+    max_velocity: 2.175
+    has_acceleration_limits: true
+    max_acceleration: 3.75
+  indy7_joint4:
+    has_velocity_limits: true
+    max_velocity: 2.175
+    has_acceleration_limits: true
+    max_acceleration: 3.75
+  indy7_joint5:
+    has_velocity_limits: true
+    max_velocity: 2.175
+    has_acceleration_limits: true
+    max_acceleration: 3.75
+  indy7_joint6:
+    has_velocity_limits: true
+    max_velocity: 2.175
+    has_acceleration_limits: true
+    max_acceleration: 3.75

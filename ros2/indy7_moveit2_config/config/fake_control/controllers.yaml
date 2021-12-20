@@ -1,0 +1,14 @@
+controller_names:
+  - indy7_arm_controller
+
+indy7_arm_controller:
+  action_ns: follow_joint_trajectory
+  type: FollowJointTrajectory
+  default: true
+  joints:
+    - indy7_joint1
+    - indy7_joint2
+    - indy7_joint3
+    - indy7_joint4
+    - indy7_joint5
+    - indy7_joint6
