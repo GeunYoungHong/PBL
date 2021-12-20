@@ -2,7 +2,7 @@
 
 ## 1) ROS1- bridge를 사용한 방법
 
-## 2) ROS2를 사용한 방법
+## 2) [ROS2를 사용한 방법](https://github.com/GeunYoungHong/PBL/blob/main/ros2/readme.md)
 ## PBL 1조의 코드를 참고해서 작성되었습니다.
 https://github.com/HYU-PBLRC-PB1
 
