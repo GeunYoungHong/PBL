@@ -31,7 +31,7 @@ colcon build symlink-install
 
 ## Example
 
-### Terminal 1
+### Terminal 1 (ROS1 gazebo 실행)
 ```bash
 cd ~/catkin_ws
 source /opt/ros/noetic/setup.bash
@@ -39,22 +39,27 @@ source ~/catkin_ws/devel/setup.bash
 
 roslaunch indy7_gazebo indy7_moveit_gazebo_table.launch
 ```
-### Terminal 2
+
+### Terminal 2 (ROS2 음성인식 실행)
 ```bash
-cd ~/robot_ws && source ~/robot_ws/install/setup.bash
+cd ~/robot_ws
+source /opt/ros/foxy/setup.bash
+source ~/robot_ws/install/setup.bash
+
 ros2 run rqt_example rqt_example
 ```
-### Terminal 3 (check publisher between voice recognition and indy7)
+
+### Terminal 3 (ROS1 bridge 실행)
 ```bash
-cd ~/robot_ws && source ~/robot_ws/install/setup.bash
-ros2 topic echo /xyz_pose
+source /opt/ros/noetic/setup.bash
+source /opt/ros/foxy/setup.bash
+
+ros2 run ros1_bridge dynamic_bridge --bridge-all-topics
 ```
-### Termianl 4 (if needed to check indy7 is working or not in ros2)
-```
-cd ~/robot_ws && source ~/robot_ws/install/setup.bash
-ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "x 1"' # move to x-axis by 1cm
-# wait for 5 seconds!
-ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "y 2"' # move to y-axis by 1cm
-# wait for 5 seconds!
-ros2 topic pub --once /xyz_pose std_msgs/msg/String 'data: "j nu"' # move to initial job position
+
+### Termianl 4 (Control 코드 실행)
+```bash
+cd ~/catkin_ws
+
+python3 control.py
 ```
