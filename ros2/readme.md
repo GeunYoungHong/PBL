@@ -17,8 +17,10 @@
 
 ## ROS2 colcon build
 ```
-mkdir -p robot_ws/src
+mkdir PBL
 git clone https://github.com/GeunYoungHong/PBL.git
+
+mv 
 cd ..
 colcon build symlink-install
 ```
