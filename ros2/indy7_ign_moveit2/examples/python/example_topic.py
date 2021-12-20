@@ -22,8 +22,8 @@ class TopicFollower(Node):
 
         # Create MoveIt2 interface node
         self.moveit2_ = MoveIt2Interface()
-        self.latest_position = [0.25, 0.25, 0.25]
-        self.latest_quat = [1.0, 0.0, 0.0, 0.0]
+        self.latest_position = []#[0.25, 0.25, 0.25]
+        self.latest_quat = []#[1.0, 0.0, 0.0, 0.0]
 
         self.axis = ''
         self.distance = 0.0
@@ -39,10 +39,71 @@ class TopicFollower(Node):
         # ex) msg.data == "0.25 0.14 0.32"
         self.get_logger().info('xyz message: "%s"' % msg.data)
 
+        transcript = msg.data
+        transcript = transcript.split(' ')
+
+        if transcript[0].find('ready') > -1 or transcript[0].find('j') > -1:
+            self.latest_position = [0.25, 0.25, 0.25]
+            self.latest_quat = [1.0, 0.0, 0.0, 0.0]
+            self.get_logger().info('xyz message: "%f"' % self.distance)
+
+            self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+            self.moveit2_.plan_kinematic_path()
+            self.moveit2_.execute()
+            self.moveit2_.stop()
+
+        elif transcript[0].find('x') > -1 or transcript[0].find('X') > -1:
+            self.latest_position[0] += (int(transcript[1])/10)
+            self.get_logger().info('xyz message: "%f"' % (int(transcript[1])/10))
+
+            self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+            self.moveit2_.plan_kinematic_path()
+            self.moveit2_.execute()
+            self.moveit2_.stop()
+
+        elif transcript[0].find('y') > -1 or transcript[0].find('Y') > -1:
+            self.latest_position[1] += (int(transcript[1])/10)
+            self.get_logger().info('xyz message: "%f"' % (int(transcript[1])/10))
+
+            self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+            self.moveit2_.plan_kinematic_path()
+            self.moveit2_.execute()
+            self.moveit2_.stop()
+
+        elif transcript[0].find('z') > -1 or transcript[0].find('Z') > -1:
+            self.latest_position[2] += (int(transcript[1])/10)
+            self.get_logger().info('xyz message: "%f"' % (int(transcript[1])/10))
+
+            self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+            self.moveit2_.plan_kinematic_path()
+            self.moveit2_.execute()
+            self.moveit2_.stop()
+
+        '''
         xyz_msg = msg.data.split(' ')
-        
+
         self.axis = xyz_msg[0]
         self.distance = int(xyz_msg[1])/10
+        self.get_logger().info('xyz message: "%s"' % self.axis)
+
+        if self.axis.find('j') > -1:
+            self.latest_position = [0.25, 0.25, 0.25]
+            self.latest_quat = [1.0, 0.0, 0.0, 0.0]
+            self.get_logger().info('xyz message: "%f"' % self.distance)
+
+            self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+            self.moveit2_.plan_kinematic_path()
+            self.moveit2_.execute()
+            self.moveit2_.stop()
+
+        if self.axis.find('x') > -1:
+            self.latest_position[0] += self.distance
+            self.get_logger().info('xyz message: "%f"' % self.distance)
+
+            self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+            self.moveit2_.plan_kinematic_path()
+            self.moveit2_.execute()
+            self.moveit2_.stop()
 
         if self.axis.find('x') > -1:
             self.latest_position[0] += self.distance
@@ -54,23 +115,22 @@ class TopicFollower(Node):
             self.latest_position[2] += self.distance
             self.get_logger().info('xyz message: "%f"' % self.distance)
 
-        elif self.axis.find('j') > -1:
+        elif self.axis.find('j') > -1 or msg.data.find('ready') > -1:
             self.latest_position = [0.25, 0.25, 0.25]
             self.latest_quat = [1.0, 0.0, 0.0, 0.0]
             self.get_logger().info('xyz message: "%f"' % self.distance)
-
+        '''
         #self.latest_position[0] += xyz[0]
         #self.latest_position[1] += xyz[1]
         #self.latest_position[2] += xyz[2]
 
-        self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
+        #self.moveit2_.set_pose_goal(self.latest_position, self.latest_quat)
         # Plan and execute
-        self.moveit2_.plan_kinematic_path()
-        self.moveit2_.execute()
+        #self.moveit2_.plan_kinematic_path()
+        #self.moveit2_.execute()
 
 def main(args=None):
     rclpy.init(args=args)
-
     _topic_follower = TopicFollower()
 
     rclpy.shutdown()
