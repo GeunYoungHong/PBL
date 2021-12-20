@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<robot name="indy7">
+
+	<!-- Arm Links -->
+	<link name="indy7_link0">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link0.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link0.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="indy7_link1">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link1.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link1.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="indy7_link2">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link2.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link2.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="indy7_link3">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link3.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link3.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="indy7_link4">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link4.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link4.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="indy7_link5">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link5.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link5.stl"/>
+			</geometry>
+		</collision>
+	</link>
+
+	<link name="indy7_link6">
+		<visual>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/visual/link6.stl"/>
+			</geometry>
+			<material name="white">
+				<color rgba="1 1 1 1"/>                          
+			</material>
+		</visual>
+		<collision>
+			<geometry>
+				<mesh filename="package://indy7_ign/meshes/collision/link6.stl"/>
+			</geometry>
+		</collision>
+	</link>
+	
+	<!-- Arm Joints -->
+	<joint name="indy7_joint1" type="revolute">
+		<parent link="indy7_link0"/>
+		<child link="indy7_link1"/>		
+		<origin xyz="0 0 0.0775" rpy="0 0 0"/>
+		<axis xyz="0 0 1"/>
+		<limit effort="10" velocity="1" lower="-3.05" upper="3.05"/>
+	</joint>
+
+	<joint name="indy7_joint2" type="revolute">
+		<parent link="indy7_link1"/>
+		<child link="indy7_link2"/>		
+		<origin xyz="0 -0.10900000 0.22200000" rpy="1.57 1.57 0"/>
+		<axis xyz="0 0 1"/>
+		<limit effort="10" velocity="1" lower="-3.05" upper="3.05"/>
+	</joint>
+
+	<joint name="indy7_joint3" type="revolute">
+		<parent link="indy7_link2"/>
+		<child link="indy7_link3"/>		
+		<origin xyz="-0.45000000 +0.00000000 -0.03050000" rpy="0 0 0"/>
+		<axis xyz="0 0 1"/>
+		<limit effort="10" velocity="1" lower="-3.05" upper="3.05"/>
+	</joint>
+
+	<joint name="indy7_joint4" type="revolute">
+		<parent link="indy7_link3"/>
+		<child link="indy7_link4"/>		
+		<origin xyz="-0.26700000 +0.00000000 -0.07500000" rpy="-1.57 0 1.57"/>
+		<axis xyz="0 0 1"/>
+		<limit effort="10" velocity="1" lower="-3.05" upper="3.05"/>
+	</joint>
+
+	<joint name="indy7_joint5" type="revolute">
+		<parent link="indy7_link4"/>
+		<child link="indy7_link5"/>		
+		<origin xyz="+0.00000000 -0.11400000 +0.08300000" rpy="1.57 1.57 0"/>
+		<axis xyz="0 0 1"/>
+		<limit effort="10" velocity="1" lower="-3.05" upper="3.05"/>
+	</joint>
+
+	<joint name="indy7_joint6" type="revolute">
+		<parent link="indy7_link5"/>
+		<child link="indy7_link6"/>
+		<origin xyz="-0.16800000 +0.00000000 +0.06900000" rpy="-1.57 0 1.57"/>
+		<axis xyz="0 0 1"/>
+		<limit effort="10" velocity="1" lower="-3.75" upper="3.75"/>
+	</joint>
+
+
+	<!-- Arm-Hand Fixed Joint -->
+
+
+	<!-- Hand Links -->
+
+
+	<!-- Finger Joints -->
+
+
+	<!-- End-effector -->
+	<link name="indy7_link7"/>
+	<joint name="end_effector_frame_fixed_joint" type="fixed">
+		<!--
+		<parent link="indy_hand"/>			
+		-->
+		<parent link="indy7_link6"/>
+		<child link="indy7_link7"/>
+		<origin xyz="0 0 0.06" rpy="0 0 0"/>
+	</joint>
+
+</robot>

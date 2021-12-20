@@ -1,0 +1,24 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/pmh5050/robot_ws/install/indy7_ign_moveit2/lib/python3.8/site-packages",
+        "/home/pmh5050/robot_ws/install/ign_moveit2/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/warehouse_ros_mongo/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/srdfdom/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/ros2controlcli/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/controller_manager/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/controller_manager_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/pmh5050/robot_ws/install/indy7_ign_moveit2/lib/python3.8/site-packages",
+        "/home/pmh5050/robot_ws/install/ign_moveit2/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/warehouse_ros_mongo/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/srdfdom/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/ros2controlcli/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/controller_manager/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/moveit_msgs/lib/python3.8/site-packages",
+        "/home/pmh5050/ws_moveit2/install/controller_manager_msgs/lib/python3.8/site-packages",
+        "/opt/ros/foxy/lib/python3.8/site-packages"
+    ]
+}

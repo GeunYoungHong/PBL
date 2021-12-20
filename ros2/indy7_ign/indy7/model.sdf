@@ -1,0 +1,453 @@
+<?xml version="1.0" ?>
+<sdf version="1.7">
+  <model name="indy7">
+
+    <!-- Fix To World -->
+    <joint name="indy7_joint_world" type="fixed">
+      <parent>world</parent>
+      <child>indy7_link0</child>
+    </joint>
+
+    <!-- Arm Links -->
+    <link name="indy7_link0">
+      <visual name="indy7_link0_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link0.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link0_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link0.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.005539632623033441</ixx>
+          <iyy>0.005801945157215893</iyy>
+          <izz>0.010586386650296754</izz>
+          <ixy>-1.2227647336197177e-06</ixy>
+          <ixz>5.273278732323956e-05</ixz>
+          <iyz>2.0169648647550674e-07</iyz>
+        </inertia>
+        <pose>-0.00058911 1.65353e-06 0.0369576 0 0 0</pose>
+        <mass>2.1311894186529186</mass>
+      </inertial>
+    </link>
+
+    <link name="indy7_link1">
+      <pose relative_to="indy7_joint1">0 0 0 0 0 0</pose>
+      <visual name="indy7_link1_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link1_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.0148524244273536</ixx>
+          <iyy>0.014106931226049557</iyy>
+          <izz>0.008162736605552327</izz>
+          <ixy>1.0100553890581127e-06</ixy>
+          <ixz>2.7561848751209972e-06</ixz>
+          <iyz>0.0033340092775459226</iyz>
+        </inertia>
+        <pose>8.14364e-06 -0.0342345 0.160472 0 0 0</pose>
+        <mass>1.551931236405957</mass>
+      </inertial>
+    </link>
+
+    <link name="indy7_link2">
+      <pose relative_to="indy7_joint2">0 0 0 0 0 0</pose>
+      <visual name="indy7_link2_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link2.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link2_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link2.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.031940497190853935</ixx>
+          <iyy>0.25763478226066805</iyy>
+          <izz>0.23709709816883917</izz>
+          <ixy>4.045423338707414e-06</ixy>
+          <ixz>-0.010682473828245958</ixz>
+          <iyz>2.8674601059559716e-06</iyz>
+        </inertia>
+        <pose>-0.20838 -6.40588e-06 0.0466178 0 0 0</pose>
+        <mass>11.728264581913129</mass>
+      </inertial>
+    </link>
+
+    <link name="indy7_link3">
+      <pose relative_to="indy7_joint3">0 0 0 0 0 0</pose>
+      <visual name="indy7_link3_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link3.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link3_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link3.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.0035236079378671153</ixx>
+          <iyy>0.012367043193457132</iyy>
+          <izz>0.01087480800833959</izz>
+          <ixy>1.0176445869907627e-07</ixy>
+          <ixz>-0.001423302013928762</ixz>
+          <iyz>-1.6188026601592563e-07</iyz>
+        </inertia>
+        <pose>-0.0966333 -3.62965e-07 -0.0496837 0 0 0</pose>
+        <mass>1.1987293471615488</mass>
+      </inertial>
+    </link>
+
+    <link name="indy7_link4">
+      <pose relative_to="indy7_joint4">0 0 0 0 0 0</pose>
+      <visual name="indy7_link4_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link4.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link4_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link4.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.0017769209306738372</ixx>
+          <iyy>0.0037098366268569676</iyy>
+          <izz>0.0030422952521189763</izz>
+          <ixy>7.03700617155862e-08</ixy>
+          <ixz>0.0006362846715912113</ixz>
+          <iyz>-1.8710442295513876e-07</iyz>
+        </inertia>
+        <pose>-4.44459e-06 -0.0502282 0.18835 0 0 0</pose>
+        <mass>0.31275085029884664</mass>
+      </inertial>
+    </link>
+
+    <link name="indy7_link5">
+      <pose relative_to="indy7_joint5">0 0 0 0 0 0</pose>
+      <visual name="indy7_link5_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link5.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link5_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link5.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.0017769209306738372</ixx>
+          <iyy>0.0037098366268569676</iyy>
+          <izz>0.0030422952521189763</izz>
+          <ixy>7.03700617155862e-08</ixy>
+          <ixz>0.0006362846715912113</ixz>
+          <iyz>-1.8710442295513876e-07</iyz>
+        </inertia>
+        <pose>-0.0567136 3.76207e-06 0.0510429 0 0 0</pose>
+        <mass>0.7172264920432064</mass>
+      </inertial>
+    </link>
+
+    <link name="indy7_link6">
+      <pose relative_to="indy7_joint6">0 0 0 0 0 0</pose>
+      <visual name="indy7_link6_visual">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link6.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <diffuse>1 1 1 1</diffuse>                            
+        </material>
+      </visual>
+      <collision name="indy7_link6_collision">
+        <geometry>
+          <mesh>
+            <uri>model://indy7/meshes/visual/link6.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <friction>
+            <ode>            
+              <mu>1.05</mu>
+              <mu2>1.05</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+
+      <inertial>
+        <inertia>
+          <ixx>0.0005001352247028735</ixx>
+          <iyy>0.000479311255399018</iyy>
+          <izz>0.0005404413378868871</izz>
+          <ixy>1.5389980474027265e-06</ixy>
+          <ixz>-1.553434705065274e-07</ixz>
+          <iyz>-1.7117660165374934e-05</iyz>
+        </inertia>
+        <pose>-0.000321227 0.00234386 0.0105175 0 0 0</pose>
+        <mass>0.3599080735243878</mass>
+      </inertial>
+    </link>
+
+
+    <!-- Arm Joints -->
+    <joint name="indy7_joint1" type="revolute">
+        <pose relative_to="indy7_link0">0 0 0.0775 0 0 0</pose>
+        <parent>indy7_link0</parent>
+        <child>indy7_link1</child>
+        <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+                <effort>87</effort>
+                <lower>-3.05</lower>
+                <upper>3.05</upper>
+                <velocity>2.617993877991494</velocity>
+            </limit>
+            <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>21.75</damping>
+                <friction>3.48</friction>
+            </dynamics>
+        </axis>
+    </joint>
+
+    <joint name="indy7_joint2" type="revolute">
+        <pose relative_to="indy7_link1">0 -0.10900000 0.22200000 1.57 1.57 0</pose>
+        <parent>indy7_link1</parent>
+        <child>indy7_link2</child>
+        <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+                <effort>87</effort>
+                <lower>-3.05</lower>
+                <upper>3.05</upper>
+                <velocity>2.617993877991494</velocity>
+            </limit>
+            <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>21.75</damping>
+                <friction>3.48</friction>
+            </dynamics>
+        </axis>
+    </joint>
+
+    <joint name="indy7_joint3" type="revolute">
+        <pose relative_to="indy7_link2">-0.45000000 +0.00000000 -0.03050000 0 0 0</pose>
+        <parent>indy7_link2</parent>
+        <child>indy7_link3</child>
+        <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+                <effort>87</effort>
+                <lower>-3.05</lower>
+                <upper>3.05</upper>
+                <velocity>2.617993877991494</velocity>
+            </limit>
+            <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>21.75</damping>
+                <friction>3.48</friction>
+            </dynamics>
+        </axis>
+    </joint>
+
+    <joint name="indy7_joint4" type="revolute">
+        <pose relative_to="indy7_link3">-0.26700000 +0.00000000 -0.07500000 -1.57 0 1.57</pose>
+        <parent>indy7_link3</parent>
+        <child>indy7_link4</child>
+        <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+                <effort>87</effort>
+                <lower>-3.05</lower>
+                <upper>3.05</upper>
+                <velocity>2.617993877991494</velocity>
+            </limit>
+            <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>21.75</damping>
+                <friction>3.48</friction>
+            </dynamics>
+        </axis>
+    </joint>
+
+    <joint name="indy7_joint5" type="revolute">
+        <pose relative_to="indy7_link4">+0.00000000 -0.11400000 +0.08300000 1.57 1.57 0</pose>
+        <parent>indy7_link4</parent>
+        <child>indy7_link5</child>
+        <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+                <effort>87</effort>
+                <lower>-3.05</lower>
+                <upper>3.05</upper>
+                <velocity>2.617993877991494</velocity>
+            </limit>
+            <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>21.75</damping>
+                <friction>3.48</friction>
+            </dynamics>
+        </axis>
+    </joint>
+    
+    <joint name="indy7_joint6" type="revolute">
+        <pose relative_to="indy7_link5">-0.16800000 +0.00000000 +0.06900000 -1.57 0 1.57</pose>
+        <parent>indy7_link5</parent>
+        <child>indy7_link6</child>
+        <axis>
+            <xyz>0 0 1</xyz>
+            <limit>
+                <effort>87</effort>
+                <lower>-3.75</lower>
+                <upper>3.75</upper>
+                <velocity>2.617993877991494</velocity>
+            </limit>
+            <dynamics>
+                <spring_reference>0</spring_reference>
+                <spring_stiffness>0</spring_stiffness>
+                <damping>21.75</damping>
+                <friction>3.48</friction>
+            </dynamics>
+        </axis>
+    </joint>
+
+    <!-- Arm-Hand Fixed Joint -->
+    
+
+    <!-- Hand Links -->
+
+    
+    <!-- Finger Joints -->
+
+
+    <!-- End-effector -->
+    <link name="indy7_link7">
+        <pose relative_to="end_effector_frame_fixed_joint">0 0 0 0 0 0</pose>
+    </link>
+    <joint name="end_effector_frame_fixed_joint" type="fixed">
+        <pose relative_to="indy7_link6">0 0 0.06 0 0 0</pose>
+        <parent>indy7_link6</parent>
+        <child>indy7_link7</child>
+    </joint>
+
+  </model>
+</sdf>
