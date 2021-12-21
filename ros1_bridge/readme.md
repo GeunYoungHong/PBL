@@ -1,4 +1,7 @@
 # ROS1 bridge를 이용한 방법
+
+https://user-images.githubusercontent.com/86825634/146855663-10aea67a-f163-4317-b9c5-82e96b42f80b.mp4
+
 * ROS1 bridge를 이용하여 ROS2 음성인식를 통해 ROS1 Gazebo 환경에서 Indy7를 조작하는 프로젝트 입니다.
 ```
 git clone https://github.com/GeunYoungHong/PBL.git
