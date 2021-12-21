@@ -28,6 +28,8 @@ colcon build symlink-install
 
 ## Example
 
+https://user-images.githubusercontent.com/86825634/146856658-45631a07-03dd-4859-89b9-b5fa214e719b.mp4 https://user-images.githubusercontent.com/86825634/146856663-c6b6abb9-f96d-4990-9522-090bc54687ee.mp4
+
 ### Terminal 1
 ```bash
 cd ~/robot_ws && source install/setup.bash
