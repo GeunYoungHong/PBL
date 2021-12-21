@@ -1,7 +1,5 @@
 # ROS1 bridge를 이용한 방법
 
-https://user-images.githubusercontent.com/86825634/146855955-2907f13e-a6ec-4f41-854e-0e97db5870b7.mp4
-
 * ROS1 bridge를 이용하여 ROS2 음성인식를 통해 ROS1 Gazebo 환경에서 Indy7를 조작하는 프로젝트 입니다.
 ```
 git clone https://github.com/GeunYoungHong/PBL.git
@@ -38,6 +36,8 @@ colcon build symlink-install
 ```
 
 ## Example
+
+https://user-images.githubusercontent.com/86825634/146855955-2907f13e-a6ec-4f41-854e-0e97db5870b7.mp4
 
 ### Terminal 1 (ROS1 gazebo 실행)
 ```bash
