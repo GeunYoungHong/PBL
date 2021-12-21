@@ -5,6 +5,8 @@
 git clone https://github.com/GeunYoungHong/PBL.git
 ```
 
+![ROS2](https://user-images.githubusercontent.com/86825634/146858112-ffba1c5c-68b3-49f5-b52c-c334b78e81da.png)
+
 ## Dependency
 
 - [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation.html)
